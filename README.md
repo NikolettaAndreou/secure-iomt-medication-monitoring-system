@@ -79,24 +79,24 @@ The original dataset is not included in this repository due to data usage restri
 
 The Streamlit dashboard provides:
 
-* Continuous data stream simulation
-* Anomaly alerts
-* Attack identification
-* Security logs
-* Rule-based explanations
-* Feature importance visualizations
+- Continuous data stream simulation
+- Anomaly alerts
+- Attack identification
+- Security logs
+- Rule-based explanations
+- Feature importance visualizations
 
 ### Dashboard Homepage
 
 ![Dashboard Homepage](screenshots/Dashboard%20homepage.png)
 
-### Anomaly Detection Example
-
-![Anomaly Detected](screenshots/Anomaly%20detected.png)
-
 ### Live Stream Simulation
 
 ![Live Stream Simulation](screenshots/Live%20Stream%20Simulation%20Section.png)
+
+### Anomaly Detection Example
+
+![Anomaly Detected](screenshots/Anomaly%20detected.png)
 
 ### Explainable AI (XAI)
 

@@ -1,6 +1,6 @@
 # Secure IoMT Medication Monitoring System
 
-Bachelor Thesis Project – Applied Computer Science
+**Bachelor Thesis Project – Applied Computer Science**
 
 ## Overview
 
@@ -46,6 +46,18 @@ The system evaluates detection performance against four healthcare IoMT attack t
 
 The Random Forest model achieved the best overall performance and was selected as the final detection model.
 
+### Model Performance Comparison
+
+![Accuracy per Model](results/accuracy%20per%20model.png)
+
+![False Positive Rate and False Negative Rate per Model](results/fpr%20and%20fnr%20per%20model.png)
+
+![Recall and F1 Score per Model](results/recall%20and%20f1%20score.png)
+
+### Attack Type Analysis
+
+![Recall and F1 Score by Attack Type](results/results_by_attack_type_recall_f1.png)
+
 ## Technology Stack
 
 * Python
@@ -74,8 +86,28 @@ The Streamlit dashboard provides:
 * Rule-based explanations
 * Feature importance visualizations
 
+### Dashboard Homepage
+
+![Dashboard Homepage](screenshots/Dashboard%20homepage.png)
+
+### Anomaly Detection Example
+
+![Anomaly Detected](screenshots/Anomaly%20detected.png)
+
+### Live Stream Simulation
+
+![Live Stream Simulation](screenshots/Live%20Stream%20Simulation%20Section.png)
+
+### Explainable AI (XAI)
+
+![XAI Explanation](screenshots/XAI%20explanation.png)
+
+### Security Monitoring
+
+![Security Log and HMAC Verification](screenshots/Security%20log_HMAC%20verification.png)
+
 ## Author
 
-Nikoletta Andreou
+**Nikoletta Andreou**
 
 Bachelor Thesis Project, 2026
